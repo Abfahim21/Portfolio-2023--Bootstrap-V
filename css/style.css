@@ -80,14 +80,27 @@ section.hero.container-xxl {
     padding: 100px 5px;
 }
 
-section.passion.container-xxl.py-5 {
+section.passion.container-xxl {
     padding: 100px 5px;
 }
 
-section.portfolio.container-xxl.py-5 {
+section.portfolio.container-xxl {
     padding: 100px 5px;
 }
 
-section.contact.container-xxl.py-5 {
+section.contact.container-xxl {
     padding: 100px 5px;
+}
+section.passion.container-xxl h2 {
+    padding-bottom: 130px;
+}
+
+section.portfolio.container-xxl h2 {
+    padding-bottom: 130px;
+}
+section.contact.container-xxl h2 {
+    padding-bottom: 130px;
+}
+section.footer.container-xxl {
+    padding-top: 180px;
 }
