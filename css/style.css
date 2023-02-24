@@ -109,3 +109,9 @@ section.footer.container-xxl {
 span.color-dark-blue.name {
     font-size: 50px;
 }
+
+span.color-dark-blue.name.fw-bold {
+    font-weight: 400;
+    letter-spacing: 7px;
+    line-height: 1.2;
+}
