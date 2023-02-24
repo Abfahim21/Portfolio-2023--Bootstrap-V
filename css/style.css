@@ -13,6 +13,10 @@ body {
     background-repeat: no-repeat;
     height: 100%;
   }
+
+  ul.navbar-nav.ms-auto li.nav-item a:hover {
+    color: rgba(20, 39, 155, 1);
+  }
 .color-dark-blue {
     color: rgba(0, 34, 101, 1);
 }
