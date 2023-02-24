@@ -76,3 +76,18 @@ section.hero.container-xxl.py-5 .col-lg-6 p {
 }
 
 
+section.hero.container-xxl {
+    padding: 100px 5px;
+}
+
+section.passion.container-xxl.py-5 {
+    padding: 100px 5px;
+}
+
+section.portfolio.container-xxl.py-5 {
+    padding: 100px 5px;
+}
+
+section.contact.container-xxl.py-5 {
+    padding: 100px 5px;
+}
