@@ -6,12 +6,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body {
+    background-image: url("/images/Background.png");
+    background-size: cover;
+    background-position: center;
+  }
 .color-dark-blue {
     color: rgba(0, 34, 101, 1);
 }
 .color-soft-blue {
     color: rgba(20, 39, 155, 1);
+}
+
+.color-text-blue {
+    color: rgba(8, 32, 50, 1);
 }
 
 a.navbar-brand {
@@ -39,4 +47,15 @@ button.btn.btn-primary.btn-contact {
     border: 1px solid #608AF5;
     border-radius: 10px;
     padding: 10px 18px;
+}
+
+section.hero.container-xxl.py-5 .col-lg-6 h1 {
+    font-size: 55px;
+}
+section.hero.container-xxl.py-5 .col-lg-6 h5 {
+    font-size: 35px;
+}
+section.hero.container-xxl.py-5 .col-lg-6 p {
+    font-size: 23px;
+    line-height: 1.6;
 }
