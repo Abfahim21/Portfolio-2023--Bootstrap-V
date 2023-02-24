@@ -119,3 +119,8 @@ span.color-dark-blue.name.fw-bold {
     letter-spacing: 7px;
     line-height: 1.2;
 }
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out
+}
