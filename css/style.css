@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-dark-blue {
+    color: rgba(0, 34, 101, 1);
+}
+.color-soft-blue {
+    color: rgba(20, 39, 155, 1);
+}
+
+a.navbar-brand {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    line-height: 2.5;
+}
+ul.navbar-nav.ms-auto li.nav-item a {
+    color: rgba(33, 33, 33, 1);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5.5px;
+}
+
+ul.navbar-nav.ms-auto {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+
+button.btn.btn-primary.btn-contact {
+    background: #608AF5;
+    font-size: 25px;
+    border: 1px solid #608AF5;
+    border-radius: 10px;
+    padding: 10px 18px;
 }
