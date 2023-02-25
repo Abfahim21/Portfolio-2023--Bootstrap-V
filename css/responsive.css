@@ -1,14 +1,36 @@
 /* Smartphones (portrait) */
-@media only screen and (max-width: 320px) {
-    /* Styles */
+@media only screen and (max-width: 425px) {
+  /* Styles */
+  section.passion.container-xxl {
+    padding: 0px 0px;
   }
-  
-  /* iPads (portrait and landscape)  */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Styles */
+  section.hero.container-xxl {
+    padding: 50px 0;
   }
-  
-  /* Desktops and laptops  */
-  @media only screen and (min-width: 1224px) {
-    /* Styles */
+  section.passion.container-xxl h2 {
+    padding-bottom: 50px;
   }
+  section.portfolio.container-xxl h2 {
+    padding-bottom: 50px;
+  }
+  section.portfolio.container-xxl {
+    padding: 50px 10px;
+  }
+  section.contact.container-xxl {
+    padding: 50px 0;
+  }
+
+
+
+}
+/* iPads (portrait and landscape)  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+
