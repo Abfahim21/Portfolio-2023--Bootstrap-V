@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: auto;
   }
 
   ul.navbar-nav.ms-auto li.nav-item a:hover {
