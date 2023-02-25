@@ -29,6 +29,15 @@
   ul.navbar-nav.ms-auto {
     gap: 15px;
   }
+  section.passion.container-xxl {
+    padding: 20px 0px;
+  }
+  section.portfolio.container-xxl {
+    padding: 0px 0px;
+  }
+  section.footer.container-xxl {
+    padding-top: 100px;
+  }
 }
 
 /* Desktops and laptops  */
