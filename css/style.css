@@ -17,7 +17,10 @@ body {
 ul.navbar-nav.ms-auto li.nav-item a:hover {
     color: rgba(20, 39, 155, 1);
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in;
+}
+ul.navbar-nav.ms-auto li.nav-item a{
+    transition: all 0.3s ease-in-out;
 }
 
 .color-dark-blue {
@@ -127,14 +130,21 @@ span.color-dark-blue.name.fw-bold {
     line-height: 1.2;
 }
 
+img{
+    transition: all 0.3s ease-in-out;
+}
+
 img:hover {
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in;
+}
+.card.text-center.py-3.px-5, a.navbar-brand,  button.btn.btn-primary.btn-contact {
+    transition: all 0.3s ease-in-out;
 }
 .card.text-center.py-3.px-5:hover {
     color: rgb(0, 67, 201);
     transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in;
 }
 .background-image img.img-fluid:hover, a.navbar-brand:hover, button.btn.btn-primary.btn-contact:hover {
     transform: scale(1.1);
