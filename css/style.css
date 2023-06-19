@@ -86,7 +86,7 @@ section.hero.container-xxl.py-5 .col-lg-6 p {
     position: absolute;
     z-index: -1;
     width: 30%;
-    margin: -125px -30px;
+    margin: -30px;
 }
 
 section.hero.container-xxl {
