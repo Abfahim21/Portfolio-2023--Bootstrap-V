@@ -86,7 +86,7 @@ section.hero.container-xxl.py-5 .col-lg-6 p {
     position: absolute;
     z-index: -1;
     width: 30%;
-    margin: -30px;
+    margin: -125px -30px;
 }
 
 section.hero.container-xxl {
@@ -97,7 +97,7 @@ section.passion.container-xxl {
     padding: 100px 5px;
 }
 
-section.projects.container-xxl {
+section.portfolio.container-xxl {
     padding: 100px 5px;
 }
 
@@ -109,7 +109,7 @@ section.passion.container-xxl h2 {
     padding-bottom: 130px;
 }
 
-section.projects.container-xxl h2 {
+section.portfolio.container-xxl h2 {
     padding-bottom: 130px;
 }
 section.contact.container-xxl h2 {
