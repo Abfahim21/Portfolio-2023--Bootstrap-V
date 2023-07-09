@@ -164,3 +164,8 @@ img:hover {
     flex-direction: row;
     justify-content: space-around;
 }
+
+img.img-fluid.shadow {
+    height: 250px;
+    margin: 25px;
+}
