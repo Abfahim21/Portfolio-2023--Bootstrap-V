@@ -89,7 +89,9 @@ section.hero.container-xxl.py-5 .col-lg-6 p {
 }
 
 section.hero.container-xxl {
-    padding: 100px 5px;
+    padding: 200px 5px;
+    display: flex;
+    justify-content: center;
 }
 
 section.passion.container-xxl {
@@ -179,4 +181,9 @@ section#projects h2 {
 
 section#projects {
     padding: 70px 5px;
+}
+
+.nav-active {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
 }
