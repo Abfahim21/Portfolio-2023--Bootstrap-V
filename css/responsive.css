@@ -1,17 +1,13 @@
 @media only screen and (max-width: 1920px) {
-  
 }
 
 @media only screen and (max-width: 1400px) {
-  
 }
 
 @media only screen and (max-width: 1200px) {
-  
 }
 
 @media only screen and (max-width: 992px) {
-  
 }
 
 @media only screen and (max-width: 768px) {
@@ -20,7 +16,7 @@
     max-width: 400px;
     margin: auto;
   }
-  
+
   .card.text-center {
     width: 100%;
     max-width: 300px;
@@ -32,18 +28,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
 }
 @media only screen and (max-width: 576px) {
-  
 }
 @media only screen and (max-width: 400px) {
-  
 }
 @media only screen and (max-width: 320px) {
-  
 }
-
 
 /* Smartphones (portrait) */
 @media only screen and (max-width: 425px) {
@@ -91,11 +82,3 @@
 @media only screen and (min-width: 1224px) {
   /* Styles */
 }
-
-
-
-
-
-
-
-

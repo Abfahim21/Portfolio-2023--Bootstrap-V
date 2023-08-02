@@ -1,158 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abrar's Portfolio</title>
     <!--Tab icon link-->
-    <link rel="icon" type="image/png" href="./images/letter-a.png">
+    <link rel="icon" type="image/png" href="./images/letter-a.png" />
     <!--CSS Link-->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <!--Responsive CSS Link-->
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/responsive.css" />
     <!--Bootstrap 5-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
     <!--Navbar Section Starts from here-->
-      <nav class="navbar navbar-expand-lg navbar-light py-4 fixed-top ">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="#"><span class="color-dark-blue fw-bold">Abrar</span> <span class="color-soft-blue">Fahim</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#passion">Passions</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-primary btn-contact" onclick="window.location.href='#contact'">Contact Me</button>
-              </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light py-4 fixed-top">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="#"
+          ><span class="color-dark-blue fw-bold">Abrar</span>
+          <span class="color-soft-blue">Fahim</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#passion">Passions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <button
+                class="btn btn-primary btn-contact"
+                onclick="window.location.href='#contact'"
+              >
+                Contact Me
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero Section Starts from here-->
+    <section class="hero container-xxl">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <h5 class="color-dark-blue">Hi !</h5>
+          <h1 class="color-dark-blue fw-bold pt-3">I'm Abrar Fahim</h1>
+          <h1 class="color-dark-blue fw-bold pb-3">Front-End Web Developer</h1>
+          <p class="color-text-blue">
+            Front-End developer based in Dhaka, Bangladesh.<br />
+            As a web developer,I specialize in building and<br />maintaining
+            websites using a variety of<br />programming languages and tools.
+          </p>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="./images/heroImg 1.png"
+            class="img-fluid"
+            alt="Hero image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Passion Section Starts from here-->
+    <section class="passion container-xxl" id="passion">
+      <h2 class="text-center">
+        <span class="color-soft-blue">Additional</span>
+        <span class="color-dark-blue">Passions</span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card text-center py-3 px-5">
+            <div class="card-img">
+              <img
+                src="./images/undraw_Wireframing_re_q6k6 1.png"
+                class="img-fluid"
+                alt="computer guy cartoon"
+              />
+            </div>
+            <div class="card-heading">
+              <h5>Front-End Developer</h5>
+            </div>
+            <div class="card-text">
+              <p>(Sass, Bootstrap, Tailwind)</p>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <!--Hero Section Starts from here-->
-      <section class="hero container-xxl">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6">
-                <h5 class="color-dark-blue">Hi !</h5>
-                <h1 class="color-dark-blue fw-bold pt-3">I'm Abrar Fahim</h1>
-                <h1 class="color-dark-blue fw-bold pb-3">Front-End Web Developer</h1>
-                <p class="color-text-blue">Front-End developer based in Dhaka, Bangladesh.<br>
-                    As a web developer,I specialize in building and<br>maintaining websites using a variety of<br>programming languages and tools.
+        <div class="col-lg-4">
+          <div class="card text-center py-3 px-5">
+            <div class="card-img">
+              <img
+                src="./images/undraw_Detailed_analysis_re_tk6j 1.png"
+                class="img-fluid"
+                alt="3D cartoon"
+              />
             </div>
-            <div class="col-lg-6">
-                <img src="./images/heroImg 1.png" class="img-fluid" alt="Hero image">
+            <div class="card-heading">
+              <h5>Back-End Developer</h5>
             </div>
+            <div class="card-text">
+              <p>(React.JS, Node.JS, Express.JS)</p>
+            </div>
+          </div>
         </div>
-      </section>
-
-      <!--Passion Section Starts from here-->
-      <section class="passion container-xxl" id="passion">
-        <h2 class="text-center"><span class="color-soft-blue">Additional</span> <span class="color-dark-blue">Passions</span></h2>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card text-center  py-3 px-5">
-                    <div class="card-img ">
-                        <img src="./images/undraw_Wireframing_re_q6k6 1.png" class="img-fluid" alt="computer guy cartoon">
-                    </div>
-                    <div class="card-heading">
-                        <h5>Front-End Developer</h5>
-                    </div>
-                    <div class="card-text">
-                        <p>(Sass, Bootstrap, Tailwind)</p>
-                    </div>
-                </div>
+        <div class="col-lg-4">
+          <div class="card text-center py-3 px-5">
+            <div class="card-img">
+              <img
+                src="./images/undraw_Design_process_re_0dhf 1.png"
+                class="img-fluid"
+                alt="3D cartoon"
+              />
             </div>
-            <div class="col-lg-4">
-                <div class="card text-center  py-3 px-5">
-                    <div class="card-img ">
-                        <img src="./images/undraw_Detailed_analysis_re_tk6j 1.png" class="img-fluid" alt="3D cartoon">
-                    </div>
-                    <div class="card-heading">
-                        <h5>Back-End Developer</h5>
-                    </div>
-                    <div class="card-text">
-                        <p>(React.JS, Node.JS, Express.JS)</p>
-                    </div>
-                </div>
+            <div class="card-heading">
+              <h5>UI/UX Designer</h5>
             </div>
-            <div class="col-lg-4">
-                <div class="card text-center  py-3 px-5">
-                    <div class="card-img ">
-                        <img src="./images/undraw_Design_process_re_0dhf 1.png" class="img-fluid" alt="3D cartoon">
-                    </div>
-                    <div class="card-heading">
-                        <h5>UI/UX Designer</h5>
-                    </div>
-                    <div class="card-text">
-                        <p>(Adobe Illustrator, PS, Xd, Figma)</p>
-                    </div>
-                </div>
+            <div class="card-text">
+              <p>(Adobe Illustrator, PS, Xd, Figma)</p>
             </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--Projects Section Starts from here-->
-      <section class="projects container-xxl" id="projects">
-        <h2 class="text-center"><span class="color-soft-blue">My</span> <span class="color-dark-blue">Projects</span></h2>
-        <div class="row">
-            <div class="col-lg-4 text-center">
-                <a href="https://courageous-tartufo-ff64fa.netlify.app/" target="_blank">
-                    <img src="./images/amt.jpg" class="img-fluid shadow" alt="Send Pay">
-                </a>
-            </div>
-            <div class="col-lg-4 text-center">
-                <a href="https://merry-muffin-6ba60d.netlify.app/" target="_blank">
-                    <img src="./images/frikly.jpg" class="img-fluid shadow" alt="E commerce">
-                </a>
-            </div>
-            <div class="col-lg-4 text-center">
-                <a href="https://demo-app-webpage.netlify.app/" target="_blank">
-                    <img src="./images/B Learning.jpg" class="img-fluid shadow" alt="Learning">
-                </a>
-            </div>
+    <!--Projects Section Starts from here-->
+    <section class="projects container-xxl" id="projects">
+      <h2 class="text-center">
+        <span class="color-soft-blue">My</span>
+        <span class="color-dark-blue">Projects</span>
+      </h2>
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <a
+            href="https://courageous-tartufo-ff64fa.netlify.app/"
+            target="_blank"
+          >
+            <img
+              src="./images/amt.jpg"
+              class="img-fluid shadow"
+              alt="Send Pay"
+            />
+          </a>
         </div>
-      </section>
-
-      <!--Contact Section Starts from here-->
-      <section class="contact container-xxl" id="contact">
-        <h2 class="text-center"><span class="color-soft-blue">Contact</span> <span class="color-dark-blue">Me</span></h2>
-        <div class="contact-wrapper">
-            <div class="col-cm-3">
-                <a href="https://github.com/Abfahim21" target="_blank"><img src="./images/github.png" alt="github icon"></a>
-            </div>
-            <div class="col-cm-3">
-                <a href="https://www.instagram.com/fahmiuss/" target="_blank"><img src="./images/Instagram.png" alt="instagram icon"></a>
-            </div>
-            <div class="col-cm-3">
-                <a href="mailto:abrarfahim21@gmail.com" target="_blank"><img src="./images/fast message.png" alt="messaging icon"></a>
-            </div>
-            <div class="col-cm-3">
-                <a href="tel:+8801858006861" target="_blank"><img src="./images/call.png" alt="call icon"></a>
-            </div>
+        <div class="col-lg-4 text-center">
+          <a href="https://merry-muffin-6ba60d.netlify.app/" target="_blank">
+            <img
+              src="./images/frikly.jpg"
+              class="img-fluid shadow"
+              alt="E commerce"
+            />
+          </a>
         </div>
-      </section>
+        <div class="col-lg-4 text-center">
+          <a href="https://demo-app-webpage.netlify.app/" target="_blank">
+            <img
+              src="./images/B Learning.jpg"
+              class="img-fluid shadow"
+              alt="Learning"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
 
-        <!--Footer Section Starts from here-->
-        <section class="footer container-xxl" id="about">
-            <h2 class="text-center"><span class="color-soft-blue">Design by </span><br><br><span class="color-dark-blue name fw-bold">Md. Abrar <span class="color-soft-blue">Fahim</span></span></h2> <br>
-            <h3 class="text-center"><span class="color-soft-blue">Web </span><span class="color-dark-blue">Developer</span></h3>
-            <h3 class="text-center"><span class="color-soft-blue">Computer Science </span><span class="color-dark-blue">and Enginerring</span></h3>
-            <a class="text-decoration-none" href="http://www.iub.edu.bd/" target="_blank"><h3 class="text-center"><span class="color-soft-blue">Independent </span><span class="color-dark-blue">University Bangladesh</span></h3></a>
-        </section>
-        
+    <!--Contact Section Starts from here-->
+    <section class="contact container-xxl" id="contact">
+      <h2 class="text-center">
+        <span class="color-soft-blue">Contact</span>
+        <span class="color-dark-blue">Me</span>
+      </h2>
+      <div class="contact-wrapper">
+        <div class="col-cm-3">
+          <a href="https://github.com/Abfahim21" target="_blank"
+            ><img src="./images/github.png" alt="github icon"
+          /></a>
+        </div>
+        <div class="col-cm-3">
+          <a href="https://www.instagram.com/fahmiuss/" target="_blank"
+            ><img src="./images/Instagram.png" alt="instagram icon"
+          /></a>
+        </div>
+        <div class="col-cm-3">
+          <a href="mailto:abrarfahim21@gmail.com" target="_blank"
+            ><img src="./images/fast message.png" alt="messaging icon"
+          /></a>
+        </div>
+        <div class="col-cm-3">
+          <a href="tel:+8801858006861" target="_blank"
+            ><img src="./images/call.png" alt="call icon"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer Section Starts from here-->
+    <section class="footer container-xxl" id="about">
+      <h2 class="text-center">
+        <span class="color-soft-blue">Design by </span><br /><br /><span
+          class="color-dark-blue name fw-bold"
+          >Md. Abrar <span class="color-soft-blue">Fahim</span></span
+        >
+      </h2>
+      <br />
+      <h3 class="text-center">
+        <span class="color-soft-blue">Web </span
+        ><span class="color-dark-blue">Developer</span>
+      </h3>
+      <h3 class="text-center">
+        <span class="color-soft-blue">Computer Science </span
+        ><span class="color-dark-blue">and Enginerring</span>
+      </h3>
+      <a
+        class="text-decoration-none"
+        href="http://www.iub.edu.bd/"
+        target="_blank"
+        ><h3 class="text-center">
+          <span class="color-soft-blue">Independent </span
+          ><span class="color-dark-blue">University Bangladesh</span>
+        </h3></a
+      >
+    </section>
+
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/javaScript.js"></script>
-</body>
+  </body>
 </html>
