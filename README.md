@@ -11,7 +11,7 @@
 
 <br>
 <p align="center"><img src="./images/optimized-gif.gif" /></p>
-<h2 align="center"><a href="https://abfahim21.github.io/Uttara-patient-care-service/">Live Demo</a></h2>
+<h2 align="center"><a href="https://abfahim21.github.io/Uttara-patient-care-service/" target="_blank">Live Demo</a></h2>
 <br>
 <br>
 
