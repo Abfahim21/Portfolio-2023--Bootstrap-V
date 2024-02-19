@@ -9,7 +9,7 @@
   + <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a> +
   <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
 </h3>
-<img src="./images/optimized-gif.gif" />
+<p align="center"><img src="./images/optimized-gif.gif" /></p>
 
 ## Sections
 
