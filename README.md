@@ -16,16 +16,27 @@
 - [x] Navbar
 - [x] Sidebar(mobile)
 - [x] Hero
-- [x] Sponsors
 - [x] About
-- [x] Stats
-- [x] How It Works
-- [x] Features
-- [x] Services
-- [x] Call-to-Action (CTA)
-- [x] Testimonials
-- [x] Team
-- [x] Pricing
-- [x] Newsletter
-- [x] Frequently Asked Questions(FAQ)
 - [x] Footer
+
+## Features
+
+- [x] Fully Responsive Design
+
+## How to install
+
+1. Clone this repositoy:
+
+```bash
+git clone https://github.com/Abfahim21/Portfolio-2023--Bootstrap-V.git
+```
+
+2. Go to the Project
+
+```bash
+cd Portfolio-2023--Bootstrap-V
+```
+
+3. Run Project by opening index.html file
+
+## Thank You
