@@ -1,5 +1,5 @@
 <h1>Bootstrap 5 - Portfolio Website</h1>
-<hr />
+
 <h3>
   <a
     href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
