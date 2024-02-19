@@ -1,6 +1,6 @@
-<h1>Bootstrap 5 - Portfolio Website</h1>
-
-<h3>
+<h1 align="center">Bootstrap 5 - Portfolio Website</h1>
+<br>
+<h3 align="center">
   <a
     href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
     target="_blank"
@@ -9,7 +9,13 @@
   + <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a> +
   <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
 </h3>
+
+<br>
+<br>
 <p align="center"><img src="./images/optimized-gif.gif" /></p>
+<br>
+<br>
+
 
 ## Sections
 
